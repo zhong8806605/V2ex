@@ -1,0 +1,27 @@
+.topic{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.topic-photo {
+    width: 128rpx;
+    height: 128rpx;
+    border-radius: 100%;
+}
+.topic-main {
+    flex:1;
+    font-size: 10rpx;   
+}
+
+.topic-vistor {
+    margin: 0 20rpx;
+    box-sizing: border-box;
+}
+.topic-title {
+    word-break: break-all;
+}
+
+.topick-v {
+    width: 122rpx;
+}

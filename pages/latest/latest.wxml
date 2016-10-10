@@ -1,0 +1,7 @@
+<view wx:for="{{node}}" class="contener">
+    <navigator url = "../hote/hote">
+        <view class="node">
+            {{item.node1}}
+        </view>
+    </navigator>
+</view>

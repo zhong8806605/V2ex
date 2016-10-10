@@ -1,0 +1,5 @@
+<view wx:for="{{node}}" class="contener">
+        <navigator url="../topiclist/topiclist?id={{item.id}}">
+            <text>{{item.title}}</text>
+        </navigator>
+</view>

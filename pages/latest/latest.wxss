@@ -1,0 +1,7 @@
+.contener {
+    height: 100rpx;
+    border-bottom: 5rpx #ccc solid;
+    padding-left: 30rpx;
+}
+
+

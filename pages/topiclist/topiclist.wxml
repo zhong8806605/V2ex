@@ -1,0 +1,9 @@
+<block wx:for="{{topics}}">
+    <view class = "topic-content" >
+        <image class = "topic-photo" src="{{item.member.avatar_normal}}" ></image>
+        <view class  = "topic-main">{{item.title}}</view>
+        <view class = "topic-num">{{item.replies}}</view>
+    </view>
+</block>
+
+

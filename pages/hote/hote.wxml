@@ -1,0 +1,14 @@
+<view class = "container">
+    <view wx:for = "{{hot}}" class = "topic">
+        <image class = "topic-photo" src = "{{hote.member.avatar_mini}}" mode = "scaleToFill"></image>
+        <view class = "topic-main">
+            <text class = "topic-title">{{item.title}}</text>
+            <view>
+                <text class = "topic-targe">target</text>
+            </view>   
+        </view>     
+        <view class = "topick-v">
+            <text class = "topic-vistor">{{item.replies}}</text>
+        </view>   
+    </view>
+</view>
